@@ -1,0 +1,76 @@
+<html>
+<head>
+    <style>
+        ul {
+            border-style: solid;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            padding: 16px 18px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: red;
+        }
+
+        .active {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="Regin.html">Register</a></li>
+    </ul>
+
+    <form>
+        <br><br><br><br><br><br>
+        <table width="800" height="300" style="margin-left: 200px;">
+            <tr>
+                <td>
+                    Enter Name
+                    <input type="text" name="name"><br><br>
+
+                    Enter Password
+                    <input type="password" name="password"><br><br>
+
+                    Select Address
+                    <textarea name="" id=""></textarea><br><br>
+
+                    Select Country
+                    <select name="country">
+                        <option value="India">India</option>
+                        <option value="Canada">Canada</option>
+                        <option value="China">China</option>
+                    </select><br><br>
+
+                    <input type="submit" value="Submit">
+                </td>
+
+                <td>
+                    <img src="Map.JPG" alt="Map Image" width="300" height="300" style="margin-left: 100px;" >
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
